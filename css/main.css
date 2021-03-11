@@ -1,3 +1,7 @@
+body {
+  font-family: "Commissioner", sans-serif;
+}
+
 .heroContainer img {
   width: 100%;
   height: auto;
@@ -10,6 +14,75 @@
 
 .projectBackContainer {
   text-align: center;
+}
+
+h1 {
+  font-weight: bold;
+  font-size: 1.25rem;
+  line-height: 1.5rem;
+}
+
+.mainText {
+  color: #7a7a7a;
+  font-size: 0.875rem;
+  line-height: 1.5rem;
+}
+
+.backingBtn {
+  background: #3cb3ab;
+  border-radius: 33.5px;
+  border: none;
+  color: #ffffff;
+  font-weight: bold;
+  text-align: center;
+}
+
+.largeBtn {
+  font-size: 1rem;
+  line-height: 1.25rem;
+  width: 214px;
+  height: 56px;
+}
+
+.smallBtn {
+  font-size: 0.875rem;
+  line-height: 1.0625rem;
+  width: 157px;
+  height: 48px;
+}
+
+.package {
+  background: #ffffff;
+  border: 1px solid rgba(0, 0, 0, 0.15);
+  border-radius: 8px;
+  width: 279px;
+  height: 370px;
+  margin-bottom: 24px;
+}
+
+.package p,
+button {
+  margin: 0 24px;
+}
+
+.packageHeader {
+  color: #000000;
+  font-weight: bold;
+  font-size: 0.875rem;
+  line-height: 1.0625rem;
+}
+
+.packagePrice {
+  color: #3cb3ab;
+  font-weight: 500;
+  font-size: 0.875rem;
+  line-height: 1.0625rem;
+}
+
+.packageText {
+  color: #7a7a7a;
+  font-size: 0.875rem;
+  line-height: 1.5rem;
 }
 
 .attribution {
