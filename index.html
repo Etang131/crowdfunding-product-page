@@ -7,7 +7,7 @@
   <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
   
   <title>Frontend Mentor | Crowdfunding product page</title>
-
+  <link href="https://fonts.googleapis.com/css2?family=Commissioner:wght@400;500;700&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="css/main.css">
 </head>
 <body>
@@ -19,31 +19,36 @@
       <div class="smallLogo"></div>
       <h1>Mastercraft Bamboo<br> Monitor Riser</h1>
       <p class="mainText">A beautiful & handcrafted monitor stand to reduce neck and eye strain.</p>
-      <button class="backingBtn">Back this project</button>
-      <button class="bookmark">Bookmark</button>
+      <div class="btnContainer">
+        <button class="backingBtn largeBtn">Back this project</button>
+        <button class="bookmark"></button>
+      </div>
     </div>
     <div class="backerStatsContainer">
       <div class="stat">
         <p class="statMoney">$89,914</p>
         <p class="statMoneyCap">of $100,000 backed</p>
-        <hr>
       </div>
+      <hr>
       <div class="stat">
         <p class="statMoney">5,007</p>
         <p class="statMoneyCap">total backers</p>
-        <hr>
       </div>
+      <hr>
       <div class="stat">
         <p class="statMoney">56</p>
         <p class="statMoneyCap">days left</p>
       </div>
+      <div class="progressbar">
+        <div class="progress"></div>
+      </div>
     </div>
     <div class="backerPackagesContainer">
       <h2>About this project</h2>
-      <p>The Mastercraft Bamboo Monitor Riser is a sturdy and stylish platform that elevates your screen 
+      <p class="mainText">The Mastercraft Bamboo Monitor Riser is a sturdy and stylish platform that elevates your screen 
         to a more comfortable viewing height. Placing your monitor at eye level has the potential to improve 
         your posture and make you more comfortable while at work, helping you stay focused on the task at hand.</p>
-        <p> Featuring artisan craftsmanship, the simplicity of design creates extra desk space below your computer 
+        <p class="mainText"> Featuring artisan craftsmanship, the simplicity of design creates extra desk space below your computer 
           to allow notepads, pens, and USB sticks to be stored under the stand.</p>
           <div class="package">
             <p class="packageHeader">Bamboo Stand</p>
@@ -51,15 +56,15 @@
             <p class="packageText">You get an ergonomic stand made of natural bamboo. You've helped us launch our promotional campaign, and 
               you’ll be added to a special Backer member list.</p>
               <p class="packageText"><span>101</span> left</p>
-              <button class="backingBtn">Select Reward</button>
+              <button class="backingBtn smallBtn">Select Reward</button>
           </div>
           <div class="package">
-            <p class="packageHeader">Black Edition Stand</p>
-            <p class="packagePrice">Pledge $75 or more</p>
-            <p class="packageText">You get a Black Special Edition computer stand and a personal thank you. You’ll be added to our Backer 
-              member list. Shipping is included.</p>
-              <p class="packageText"><span>64</span> left</p>
-              <button class="backingBtn">Select Reward</button>
+              <p class="packageHeader">Black Edition Stand</p>
+              <p class="packagePrice">Pledge $75 or more</p>
+              <p class="packageText">You get a Black Special Edition computer stand and a personal thank you. You’ll be added to our Backer 
+                member list. Shipping is included.</p>
+                <p class="packageText"><span>64</span> left</p>
+                <button class="backingBtn smallBtn">Select Reward</button>       
           </div>
           <div class="package">
             <p class="packageHeader">Mahogany Special Edition</p>
@@ -67,7 +72,7 @@
             <p class="packageText">You get two Special Edition Mahogany stands, a Backer T-Shirt, and a personal thank you. You’ll be added 
               to our Backer member list. Shipping is included.</p>
               <p class="packageText"><span>0</span> left</p>
-              <button class="backingBtn">Select Reward</button>
+              <button class="backingBtn smallBtn">Select Reward</button>
           </div>
     </div>
   </div>
