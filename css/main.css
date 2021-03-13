@@ -3,14 +3,32 @@ body {
   font-family: "Commissioner", sans-serif;
 }
 
-.heroContainer img {
+/*Nav Section Start  CURRENTELY WORKING ON*/
+.heroContainer .heroIMG {
   width: 100%;
   height: auto;
+  position: absolute;
+  top: 0;
 }
 
+.navSection {
+  position: relative;
+  display: flex;
+  justify-content: space-between;
+  top: 20px;
+}
+
+.navSection img {
+  background-color: none;
+  margin: 0 24px;
+}
+
+/*Nav Section end*/
 .container {
   display: flex;
   flex-direction: column;
+  position: relative;
+  margin-top: 300px;
 }
 
 .projectBackContainer {
@@ -177,7 +195,7 @@ h1 {
   font-weight: bold;
   font-size: 0.875rem;
   line-height: 1.0625rem;
-  margin: 0 132px 8px 24px;
+  margin: 0 0 8px 24px;
   padding-top: 24px;
 }
 
@@ -186,7 +204,7 @@ h1 {
   font-weight: 500;
   font-size: 0.875rem;
   line-height: 1.0625rem;
-  margin: 0 132px 24px 24px;
+  margin: 0 0 24px 24px;
 }
 
 .packageText {
@@ -194,11 +212,34 @@ h1 {
   font-size: 0.875rem;
   line-height: 1.5rem;
   margin: 0 24px 24px 24px;
+  padding-top: -10px;
 }
 
 .packagesLeft {
   margin: 0 172px 24px 24px;
 }
+
+.packagesLeft span {
+  color: #000000;
+  font-size: 2rem;
+  line-height: 2.4375rem;
+  margin-right: 5px;
+  font-weight: bold;
+}
+
+.smallBtn {
+  margin-left: 24px;
+}
+
+.package:last-of-type {
+  opacity: 0.5;
+}
+
+.noStockBtn {
+  background: #2f2f2f;
+  opacity: 0.5;
+}
+
 /* backerPackagesContainer Ends*/
 
 .attribution {
