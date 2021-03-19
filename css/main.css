@@ -249,7 +249,7 @@ h1 {
 
 /* backerPackagesContainer Ends*/
 
-/*Pop up module for pledge backing START*/
+/*--------------------Pop up module for pledge backing START*/
 .modalContainer {
   background-color: #ffffff;
   border: 1px solid rgba(0, 0, 0, 0.0497193);
@@ -257,21 +257,20 @@ h1 {
   width: 327px;
 }
 
-
 .modalPledgeContainer {
   display: flex;
   justify-content: center;
 }
 
 .pledgeBox {
-  background: #FFFFFF;
-border: 1px solid rgba(0, 0, 0, 0.15);
-box-sizing: border-box;
-border-radius: 8px;
+  background: #ffffff;
+  border: 1px solid rgba(0, 0, 0, 0.15);
+  box-sizing: border-box;
+  border-radius: 8px;
   width: 279px;
 }
 
-.pledgeSelectionContainer{
+.pledgeSelectionContainer {
   display: flex;
   margin: 33px 0 0 24px;
   gap: 4px;
@@ -283,18 +282,54 @@ border-radius: 8px;
 }
 
 .packageHeaderModal {
-color: #000000;
-font-weight: bold;
-font-size: 0.875rem;
-line-height: 1.0625rem;
-margin: 6px 0 0 0;
+  color: #000000;
+  font-weight: bold;
+  font-size: 0.875rem;
+  line-height: 1.0625rem;
+  margin: 6px 0 0 0;
 }
 
 .backingText {
   margin-left: 24px;
   width: 231px;
 }
-/*Pop up module for pledge backing end*/
+
+/*Plege amount sub section START*/
+.pledgeAmountSection {
+  text-align: center;
+  color: #7a7a7a;
+}
+
+.pledgeAmountSection hr {
+  opacity: 0.25;
+}
+
+.pledgeChoice {
+  display: flex;
+  justify-content: space-around;
+  padding-bottom: 30px;
+}
+
+.pledgeChoice input {
+  width: 100px;
+  height: 48px;
+}
+
+.pledgeChoice button {
+  background: #3cb3ab;
+  border-radius: 33.5px;
+  border: none;
+  color: #fff;
+  font-weight: bold;
+  font-size: 0.875rem;
+  line-height: 1.0625rem;
+  width: 115px;
+  height: 48px;
+}
+
+/*Plege amount sub section End*/
+
+/*-------------------Pop up module for pledge backing end*/
 
 .attribution {
   font-size: 11px;
