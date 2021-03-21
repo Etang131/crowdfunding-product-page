@@ -260,6 +260,7 @@ h1 {
 .modalPledgeContainer {
   display: flex;
   justify-content: center;
+  flex-direction: column;
 }
 
 .pledgeBox {
@@ -272,13 +273,31 @@ h1 {
 
 .pledgeSelectionContainer {
   display: flex;
-  margin: 33px 0 0 24px;
   gap: 4px;
+  margin: 24px 0 0 24px;
+}
+
+.plegeSelectionRadioSelection {
+  display: flex;
+  align-items: center;
+  margin-bottom: 14px;
 }
 
 .pledgeSelectionContainer input {
   width: 24px;
   height: 24px;
+}
+
+.pledgeSelectionPriceSelection {
+  margin-left: 8px;
+}
+
+.packagePriceModal {
+  color: #3cb3ab;
+  font-weight: 500;
+  font-size: 0.875rem;
+  line-height: 1.0625rem;
+  /* margin: 0 0 24px 24px; */
 }
 
 .packageHeaderModal {
@@ -313,6 +332,15 @@ h1 {
 .pledgeChoice input {
   width: 100px;
   height: 48px;
+}
+
+/*TESTING STILL*/
+.pledgeChoice input::before {
+  content: "$";
+  font-size: 15px;
+  left: 3px;
+  margin-right: 10px;
+  position: relative;
 }
 
 .pledgeChoice button {
